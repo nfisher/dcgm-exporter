@@ -26,7 +26,7 @@ import (
 	"github.com/prometheus/exporter-toolkit/web"
 )
 
-var (
+const (
 	SkipDCGMValue   = "SKIPPING DCGM VALUE"
 	FailedToConvert = "ERROR - FAILED TO CONVERT TO STRING"
 
